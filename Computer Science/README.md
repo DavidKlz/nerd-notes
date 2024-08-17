@@ -1,5 +1,26 @@
 ---
 Source: https://roadmap.sh/computer-science
 ---
-# Computer Science
-## [[Data Structures]]
+# Map
+## 1. [[Data Structures]]
+## 2. [[Asymptotic Notation]]
+## 3. [[Common Algorithms]]
+## 4. [[String Search & Manipulations]]
+## 5. [[Floating Point Math]]
+## 6. [[Endianess]]
+## 7. [[Character Encodings]]
+## 8. [[Bitwise Operators]]
+## 9. [[Common UML Diagrams]]
+## 10. [[Design Patterns]]
+## 11. [[Basic Math Skills]]
+## 12. [[Complexity Classes]]
+## 13. [[Tries]]
+## 14. [[Balanced Search Trees]]
+## 15. [[System Design]]
+## 16. [[Databases]]
+## 17. [[Networking]]
+## 18. [[Security]]
+## 19. [[How Computers Work]]
+## 20. [[Processes and Threads]]
+## 21. [[K-D Trees]]
+## 22. [[Skip Lists]]

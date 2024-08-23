@@ -17,10 +17,10 @@ The compiler accesses an array by using a simple [arithmetic](to be added) algor
 array_addr + elem_size * (i - first_index)
 ```
 
-array_addr: this is the address where the array is stored
-elem_size: size of the array
-i: the index we want to access
-first_index: the first index of the array, only needed if we do not use 0 based indexing
+array_addr: this is the address where the array is stored  
+elem_size: size of the array  
+i: the index we want to access  
+first_index: the first index of the array, only needed if we do not use 0 based indexing  
 
 ## Multi-Dimensional Arrays
 
@@ -33,18 +33,18 @@ Example for an 3 x 6 (rows x columns) dimensional array
 array_addr + elem_size * ((row_index - first_row_index) * row_elem_size + (col_index - first_col_index))
 ```
 
-row_index: the index of the row we want to access
-first_row_index: the first index of the rows, only needed if we do not use 0 based indexing
-row_elem_size: the amount of columns a row contains
-col_index: the index of the column we want to access
-first_col_index: the first index of the columns, only needed if we do not use 0 based indexing
+row_index: the index of the row we want to access  
+first_row_index: the first index of the rows, only needed if we do not use 0 based indexing  
+row_elem_size: the amount of columns a row contains  
+col_index: the index of the column we want to access  
+first_col_index: the first index of the columns, only needed if we do not use 0 based indexing  
 
 ### Ordering/Indexing
 
-Row-major ordering/indexing means the array is laid out by ascending row index:
+Row-major ordering/indexing means the array is laid out by ascending row index:  
 (1, 1), (1, 2), (1, 3), (2, 1) (2, 2), (2, 3), (3, 1), (3, 2), (3, 3)
 
-Column-major ordering/indexing means the array is laid out by ascending column index:
+Column-major ordering/indexing means the array is laid out by ascending column index:  
 (1, 1), (2, 1), (3, 1), (1, 2), (2, 2), (3, 2), (1, 3), (2, 3), (3, 3)
 
 ## Performance of common Operations
@@ -57,8 +57,7 @@ Column-major ordering/indexing means the array is laid out by ascending column i
 
 ## Source
 
----
-
-Course: <https://www.coursera.org/lecture/data-structures/arrays-OsBSF>
-Other: <https://www.geeksforgeeks.org/multidimensional-arrays-in-c/>
----
+| Type    | Source                                                          |
+| ------- | --------------------------------------------------------------- |
+| Course: | <https://www.coursera.org/lecture/data-structures/arrays-OsBSF> |
+| Other:  | <https://www.geeksforgeeks.org/multidimensional-arrays-in-c/>   |

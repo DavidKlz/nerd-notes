@@ -1,6 +1,3 @@
----
-Source: https://roadmap.sh/computer-science
----
 # Map
 
 ## 1. [Data Structures](/Computer%20Science/Data%20Structures.md)
@@ -49,6 +46,6 @@ Source: https://roadmap.sh/computer-science
 
 ## Sources
 
----
-Map: https://roadmap.sh/computer-science
----
+| Type  | Source                              |
+| ----- | ----------------------------------- |
+| Map:  | <https://roadmap.sh/computer-science> |

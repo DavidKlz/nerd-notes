@@ -46,3 +46,9 @@ Source: https://roadmap.sh/computer-science
 ## 21. [K-D Trees](/Computer%20Science/K-D%20Trees.md)
 
 ## 22. [Skip Lists](/Computer%20Science/Skip%20Lists.md)
+
+## Sources
+
+---
+Map: https://roadmap.sh/computer-science
+---

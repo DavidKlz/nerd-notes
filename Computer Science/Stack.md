@@ -9,6 +9,8 @@
 * Key pop(): removes and returns most recently-added key
 * Boolean empty(): are there any elements?
 
+Stacks are occasionally known as [LIFO queues](TO BE DONE)
+
 ## Implementation
 
 ### [Array](/Computer%20Science/Array.md)
@@ -28,7 +30,14 @@ so if we try to push once the [array](/Computer%20Science/Array.md) is full we w
 
 ### [Linked List](/Computer%20Science/Linked%20List.md)
 
-TO BE DONE
+Another implementation of the stack can be done by using a [linked list](/Computer%20Science/Linked%20List.md)
+
+* push -> push into the front, so the head will always point to the top element
+* top -> get top element with the help of our head pointer
+* pop -> get and remove front element
+* empty -> simple check if head pointer is null
+The [performance of the linked list](/Computer%20Science/Linked%20List.md#performance-of-operations) is as good as the performance of the array implementation.  
+The drawback of a [linked list](/Computer%20Science/Linked%20List.md) is the overhead since we store the element and a pointer.
 
 ## Source
 

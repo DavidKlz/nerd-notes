@@ -22,6 +22,7 @@ The stack implementation can be implemented with the help of an [array](/Compute
 * top -> get the last element of the [array](/Computer%20Science/Array.md) by using our variable numElements
 * pop -> take out and remove the last element
 * empty -> simple check if variable numElements is greater than 0
+
 If you take a look at the [performance of common Operations section of the array](/Computer%20Science/Array.md#performance-of-common-operations)
 you will see that each operation we use has a performance of O(1),
 which means the stack operations efficiently.  
@@ -36,6 +37,7 @@ Another implementation of the stack can be done by using a [linked list](/Comput
 * top -> get top element with the help of our head pointer
 * pop -> get and remove front element
 * empty -> simple check if head pointer is null
+
 The [performance of the linked list](/Computer%20Science/Linked%20List.md#performance-of-operations) is as good as the performance of the array implementation.  
 The drawback of a [linked list](/Computer%20Science/Linked%20List.md) is the overhead since we store the element and a pointer.
 
